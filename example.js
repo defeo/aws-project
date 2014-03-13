@@ -11,7 +11,7 @@ app.set('views', '.');
 
 // On définit une route pour l'url /
 app.get('/', function(req, res) {
-    res.end('Hello world !');
+    res.send('Hello world !');
 });
 
 // Maintenant on démontre l'utilisation des templates Twig
