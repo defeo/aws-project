@@ -12,7 +12,7 @@ $app['debug'] = true;
 
 // On définit une route pour l'url /
 $app->get('/', function() {
-    return 'Hello world !';
+    return 'Hello world!';
   });
 
 

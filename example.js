@@ -4,14 +4,14 @@ var express = require('express');
 var twig = require("twig");
 
 // On crée l'application web
-app = express();
+var app = express();
 
 // On configure le dossier contenant les templates
 app.set('views', '.');
 
 // On définit une route pour l'url /
 app.get('/', function(req, res) {
-    res.send('Hello world !');
+    res.send('Hello world!');
 });
 
 // Maintenant on démontre l'utilisation des templates Twig
