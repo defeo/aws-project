@@ -1,0 +1,16 @@
+{
+    "run": {
+        "@path": "/.c9/runners",
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "phpmyadmin": {
+                    "command": "",
+                    "debug": false,
+                    "name": "phpmyadmin",
+                    "runner": "Apache httpd (PHP, HTML)"
+                }
+            }
+        }
+    },
+}
