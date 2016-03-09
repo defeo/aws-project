@@ -10,7 +10,7 @@ Il est nécessaire d'avoir installé PHP, version >=5.4.
 
 Pour installer Silex et ses dépendences, taper dans un terminal (Linux)
 
-    ./install.sh
+    make
 
 ## Installation de Express (JavaScript)
 
