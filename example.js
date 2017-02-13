@@ -7,7 +7,10 @@ var twig = require("twig");
 var app = express();
 
 // On configure le dossier contenant les templates
-app.set('views', '.');
+// et les options de Twig
+app
+    .set('views', '.')
+    .set('twig options', { autoescape: true });
 
 // On définit une route pour l'url /
 app.get('/', function(req, res) {
