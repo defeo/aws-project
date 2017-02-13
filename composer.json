@@ -1,8 +1,8 @@
 {
     "require": {
-        "silex/silex": "~1.2",
-        "symfony/monolog-bridge": "~2.3",
-        "symfony/twig-bridge": "~2.3",
-        "doctrine/dbal": ">=2.2.0,<2.4.0-dev"
+        "silex/silex": "^2.0",
+        "symfony/monolog-bridge": "^3.2",
+        "symfony/twig-bridge": "^3.2",
+        "doctrine/dbal": "^2.4"
     }
 }
