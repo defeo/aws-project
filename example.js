@@ -9,7 +9,7 @@ var app = express();
 // On configure le dossier contenant les templates
 // et les options de Twig
 app
-    .set('views', '.')
+    .set('views', 'templates')
     .set('twig options', { autoescape: true });
 
 // On définit une route pour l'url /

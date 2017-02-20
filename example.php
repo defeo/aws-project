@@ -5,6 +5,7 @@ require_once 'vendor/autoload.php';
 
 // On définit des noms utiles
 use Silex\Application;
+use Symfony\Component\HttpFoundation\Request;
 
 // On crée l'application et on la configure en mode debug
 $app = new Application();
@@ -19,7 +20,7 @@ $app->get('/', function() {
 // Maintenant on démontre l'utilisation des templates Twig
 // On commence par charger le moteur de templating
 $app->register(new Silex\Provider\TwigServiceProvider(), 
-	       array('twig.path' => '.',));
+	       array('twig.path' => 'templates',));
 
 // On définit une route qui répond à tout url de la forme /blabla
 // en répondant Hello blabla
